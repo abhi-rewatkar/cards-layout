@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.cards{
+    height: 700px;
+    width:65%;
+    /* background-color: green; */
+    flex-wrap: wrap;
+    column-gap: 20px;
+
+}
+
+.card{
+    height:49%;
+    width: 25%;
+    background-color: whitesmoke;
+}
+
+.card > img{
+    height: 70%;
+    width: 100%;
+}
+
+.card_content{
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+.btn{
+    padding: 5px 8px;
+    background-color: aqua;
+    border: none;
+    font-weight: 500;
+}
